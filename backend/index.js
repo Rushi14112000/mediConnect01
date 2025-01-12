@@ -5,7 +5,7 @@ import hospRoute from './routes/HospitalRoute.js'
 import docRoute from "./routes/DocRoute.js"
 
 const PORT = process.env.PORT || 5555;
-const mongoDBURL = 'mongodb://127.0.0.1:27017/mediConnect';
+const mongoDBURL = 'mongodb+srv://rushirpatil491:Appleiphone@12@cluster0.ytarg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 const app = express();
 
