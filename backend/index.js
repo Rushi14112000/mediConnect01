@@ -1,14 +1,11 @@
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import hospRoute from './routes/HospitalRoute.js';
-import docRoute from './routes/DocRoute.js';
-import dotenv from 'dotenv';
-
-dotenv.config();  // Load environment variables
+import hospRoute from './routes/HospitalRoute.js'
+import docRoute from "./routes/DocRoute.js"
 
 const PORT = process.env.PORT || 5555;
-const mongoDBURL = process.env.MONGO_URI;
+const mongoDBURL = 'mongodb://127.0.0.1:27017/mediConnect';
 
 const app = express();
 
