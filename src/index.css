@@ -1,0 +1,16 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.headLine{
+    text-align: center;
+}
+.main{
+    background-image: url('./assets/back-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99vh;
+    width: 99vw;
+}
+
